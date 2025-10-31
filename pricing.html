@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Project - The Creative Cell</title>
+    <link rel="stylesheet" href="pricing-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="thecreativecelllogo.jpeg" alt="The Creative Cell Logo" class="nav-logo-img">
+                <h2>The Creative Cell</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#work" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="team.html" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="terms-and-conditions.html?redirect=contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <a href="index.html" class="back-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Back to Home</span>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Start Your Project</h1>
+                <p class="page-subtitle">Choose the perfect package for your creative vision and bring your ideas to life</p>
+            </div>
+        </section>
+
+        <!-- Pricing Packages -->
+        <section class="pricing-section">
+            <div class="container">
+                <div class="currency-switcher-container">
+                    <button type="button" class="currency-switch" id="currencySwitch" role="switch" aria-label="Toggle currency between USD and INR" aria-checked="true">
+                        <span class="currency-label usd active">USD</span>
+                        <span class="switch-track" aria-hidden="true">
+                            <span class="switch-thumb"></span>
+                        </span>
+                        <span class="currency-label inr">INR</span>
+                    </button>
+                </div>
+                <div class="pricing-grid">
+                    <!-- Foundation Package -->
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h3 class="package-title">FOUNDATION</h3>
+                            <div class="price-container">
+                                <span class="price-original" data-inr="7499">₹7,499</span>
+                                <span class="price-current" data-inr="4999">₹4,999</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="features-list">
+                                <li>
+                                    <span class="feature-label">Video Duration:</span>
+                                    <span class="feature-value">30 seconds</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Video Quality:</span>
+                                    <span class="feature-value">720p (HD)</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Editing Style:</span>
+                                    <span class="feature-value">Light editing (basic cuts, transitions, adjustments)</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Best For:</span>
+                                    <span class="feature-value">Mobile phones, Instagram Reels, Quick social content</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button class="cta-button foundation">
+                                <span>Choose Foundation</span>
+                                <div class="button-bg"></div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Accelerator Package (Best Seller) -->
+                    <div class="pricing-card best-seller">
+                        <div class="best-seller-badge">
+                            <span>BEST SELLER</span>
+                        </div>
+                        <div class="card-header">
+                            <h3 class="package-title">ACCELERATOR</h3>
+                            <div class="price-container">
+                                <span class="price-original" data-inr="14999">₹14,999</span>
+                                <span class="price-current" data-inr="9999">₹9,999</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="features-list">
+                                <li>
+                                    <span class="feature-label">Video Duration:</span>
+                                    <span class="feature-value">30 seconds</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Video Quality:</span>
+                                    <span class="feature-value">1080p (Full HD)</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Editing Style:</span>
+                                    <span class="feature-value">Moderate/heavy editing (effects, transitions, audio sync) but no custom editing</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Best For:</span>
+                                    <span class="feature-value">Laptop screens, mobile phones, professional marketing videos</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button class="cta-button accelerator">
+                                <span>Choose Accelerator</span>
+                                <div class="button-bg"></div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Titan Package -->
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h3 class="package-title">TITAN</h3>
+                            <div class="price-container">
+                                <span class="price-original" data-inr="19999">₹19,999</span>
+                                <span class="price-current" data-inr="14999">₹14,999</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="features-list">
+                                <li>
+                                    <span class="feature-label">Video Duration:</span>
+                                    <span class="feature-value">30 seconds</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Video Quality:</span>
+                                    <span class="feature-value">4K (Ultra HD)</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Editing Style:</span>
+                                    <span class="feature-value">Heavy editing + Custom editing</span>
+                                </li>
+                                <li>
+                                    <span class="feature-label">Best For:</span>
+                                    <span class="feature-value">TV screens, laptops & mobile devices, music videos, short films/cinematic productions</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button class="cta-button titan">
+                                <span>Choose Titan</span>
+                                <div class="button-bg"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section class="comparison-section">
+            <div class="container">
+                <h2 class="comparison-title">Compare Packages – Choose the perfect package for your needs</h2>
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="feature-column">Features</th>
+                                <th class="package-column foundation-col">Foundation Pack<br><span class="price-small" data-inr="4999">₹4,999</span></th>
+                                <th class="package-column accelerator-col">Accelerator Pack<br><span class="price-small" data-inr="9999">₹9,999</span></th>
+                                <th class="package-column titan-col">Titan Pack<br><span class="price-small" data-inr="14999">₹14,999</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="feature-name">Video Resolution</td>
+                                <td class="feature-value">720p ✔</td>
+                                <td class="feature-value">1080p ✔</td>
+                                <td class="feature-value">4K ✔</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-name">Suitable For</td>
+                                <td class="feature-value">Mobile Phones</td>
+                                <td class="feature-value">Mobile + Laptops</td>
+                                <td class="feature-value">TV + All Screens</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-name">Duration</td>
+                                <td class="feature-value">30 sec ✔</td>
+                                <td class="feature-value">30 sec ✔</td>
+                                <td class="feature-value">30 sec ✔</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-name">Editing Level</td>
+                                <td class="feature-value">Light Editing ✔</td>
+                                <td class="feature-value">Moderate Editing ✔</td>
+                                <td class="feature-value">Heavy Editing ✔</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-name">Transitions</td>
+                                <td class="feature-value">Basic ✔</td>
+                                <td class="feature-value">Better ✔</td>
+                                <td class="feature-value">Best ✔</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-name">Custom Editing</td>
+                                <td class="feature-value not-included">✘</td>
+                                <td class="feature-value not-included">✘</td>
+                                <td class="feature-value">✔</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-name">Sound Effects</td>
+                                <td class="feature-value not-included">✘</td>
+                                <td class="feature-value">✔</td>
+                                <td class="feature-value">✔</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="final-cta-section">
+            <div class="container">
+                <h2 class="cta-title">Ready to Get Started?</h2>
+                <p class="cta-description">Have questions or need a custom solution? Let's discuss your project requirements.</p>
+                <a href="terms-and-conditions.html?redirect=contact" class="cta-button contact">
+                    <span>Contact Us</span>
+                    <div class="button-bg"></div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>The Creative Cell</h3>
+                    <div class="social-media-icons">
+                        <a href="https://www.instagram.com/the.creative.cell/" target="_blank" rel="noopener noreferrer" class="social-icon instagram" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@THECREATIVECELL" target="_blank" rel="noopener noreferrer" class="social-icon youtube" aria-label="YouTube">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Creative Cell. All rights reserved.</p>
+                <p class="terms-applied">Terms & Conditions Applied</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Indicator -->
+    <div class="loading-indicator">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <script src="pricing-script.js"></script>
+</body>
+</html>

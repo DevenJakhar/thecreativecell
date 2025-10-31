@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Creative Cell - Premium Creative Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@300;400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="thecreativecelllogo.jpeg" alt="The Creative Cell Logo" class="nav-logo-img">
+                <h2>The Creative Cell</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#work" class="nav-link" data-en="Work" data-hi="काम">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-en="Services" data-hi="सेवाएं">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-en="About" data-hi="हमारे बारे में">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link" data-en="Team" data-hi="टीम">Team</a>
+                </li>
+                <!-- Temporarily disabled
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link" data-en="Pricing" data-hi="मूल्य निर्धारण">Pricing</a>
+                </li>
+                -->
+                <li class="nav-item">
+                    <a href="terms-and-conditions.html?redirect=contact" class="nav-link" data-en="Contact" data-hi="संपर्क">Contact</a>
+                </li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="hi">हिं</button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <video autoplay muted loop playsinline class="hero-video" id="heroVideo" preload="auto">
+                <source src="background2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-particles"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">The Creative</span>
+                    <span class="title-line">Cell</span>
+                </h1>
+                <p class="hero-subtitle" data-en="Crafting extraordinary visual experiences that push the boundaries of creativity and innovation" data-hi="रचनात्मकता और नवाचार की सीमाओं को आगे बढ़ाने वाले असाधारण दृश्य अनुभव तैयार करना">Crafting extraordinary visual experiences that push the boundaries of creativity and innovation</p>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text" data-en="Scroll" data-hi="स्क्रॉल करें">Scroll</span>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section work-section">
+        <div class="container">
+            <h2 class="section-title" data-en="Featured Work" data-hi="विशेष कार्य">Featured Work</h2>
+            <!-- Video Showcase -->
+            <div class="video-showcase">
+                <!-- Video Container 1 -->
+                <div class="video-container" data-video="background3.mp4">
+                    <div class="video-wrapper">
+                        <video class="showcase-video" muted loop playsinline autoplay>
+                            <source src="background3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay"></div>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-info">
+                            <h3 class="video-title">Brand Ad – Step Bold</h3>
+                            <p class="video-description">A striking brand film for a shoe company, highlighting bold moves and everyday confidence. Designed to connect style with motion, leaving a lasting impression.</p>
+                            <div class="video-tags">
+                                <span class="tag">Footwear</span>
+                                <span class="tag">Lifestyle</span>
+                                <span class="tag">Confidence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Container 2 -->
+                <div class="video-container" data-video="background1.mp4">
+                    <div class="video-wrapper">
+                        <video class="showcase-video" muted loop playsinline autoplay>
+                            <source src="background1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay"></div>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-info">
+                            <h3 class="video-title">Music Video – Forever in Tune</h3>
+                            <p class="video-description">A heartfelt romantic music video that captures the warmth of love through soulful storytelling. Seamlessly blending visuals with music to evoke deep emotions.</p>
+                            <div class="video-tags">
+                                <span class="tag">Romance</span>
+                                <span class="tag">Melody</span>
+                                <span class="tag">Emotion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Container 3 -->
+                <div class="video-container" data-video="background.mp4">
+                    <div class="video-wrapper">
+                        <video class="showcase-video" muted loop playsinline autoplay>
+                            <source src="background.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay"></div>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-info">
+                            <h3 class="video-title">Fast-Paced Edit – Pulse</h3>
+                            <p class="video-description">A dynamic edit packed with speed, rhythm, and adrenaline. Crafted to keep viewers hooked with punchy transitions and high-octane flow.</p>
+                            <div class="video-tags">
+                                <span class="tag">Energy</span>
+                                <span class="tag">Motion</span>
+                                <span class="tag">Impact</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Container 4 -->
+                <div class="video-container" data-video="background4.mp4">
+                    <div class="video-wrapper">
+                        <video class="showcase-video" muted loop playsinline autoplay>
+                            <source src="background4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay"></div>
+                    </div>
+                    <div class="video-content">
+                        <div class="video-info">
+                            <h3 class="video-title">Brand Ad: Bold Beauty</h3>
+                            <p class="video-description">A captivating brand film for a lipstick company celebrating unapologetic femininity and bold self-expression. Designed to showcase confidence, allure, and individuality, this campaign connects beauty with empowerment — leaving a mark as striking as the shade itself.</p>
+                            <div class="video-tags">
+                                <span class="tag">lipstick</span>
+                                <span class="tag">beauty</span>
+                                <span class="tag">confidence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View More Button -->
+            <div class="view-more-container">
+                <button class="view-more-btn" id="viewMoreBtn" onclick="navigateToShowcase()">
+                    <span class="btn-text" data-en="View More Work" data-hi="और काम देखें">View More Work</span>
+                    <div class="btn-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 13L12 18L17 13M7 6L12 11L17 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="btn-bg"></div>
+                    <div class="btn-ripple"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Services" data-hi="हमारी सेवाएं">Our Services</h2>
+            
+            <!-- Creative Cell Image -->
+            <div class="creative-cell-image">
+                <img src="the creative cell horizontal.jpeg" alt="The Creative Cell" class="creative-cell-img">
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3 data-en="Video Editing & Post-Production" data-hi="वीडियो एडिटिंग और पोस्ट-प्रोडक्शन">Video Editing & Post-Production</h3>
+                    <p data-en="High-quality edits for brands, creators, and businesses — from corporate reels to entertainment content." data-hi="ब्रांड्स, क्रिएटर्स और व्यवसायों के लिए उच्च गुणवत्ता वाले एडिट्स — कॉर्पोरेट रील्स से लेकर मनोरंजन सामग्री तक।">High-quality edits for brands, creators, and businesses — from corporate reels to entertainment content.</p>
+                </div>
+                <div class="service-item">
+                    <h3 data-en="Ad Campaign Production" data-hi="विज्ञापन अभियान उत्पादन">Ad Campaign Production</h3>
+                    <p data-en="End-to-end campaign creation with AI-powered visuals, storytelling, and strategy." data-hi="AI-संचालित विज़ुअल, कहानी कहने और रणनीति के साथ संपूर्ण अभियान निर्माण।">End-to-end campaign creation with AI-powered visuals, storytelling, and strategy.</p>
+                </div>
+                <div class="service-item">
+                    <h3 data-en="Music & Creative Videos" data-hi="संगीत और रचनात्मक वीडियो">Music & Creative Videos</h3>
+                    <p data-en="Cinematic, animated, or experimental — we craft visuals that bring your sound and stories to life." data-hi="सिनेमाई, एनिमेटेड, या प्रयोगात्मक — हम ऐसे विज़ुअल बनाते हैं जो आपकी आवाज़ और कहानियों को जीवंत करते हैं।">Cinematic, animated, or experimental — we craft visuals that bring your sound and stories to life.</p>
+                </div>
+                <div class="service-item">
+                    <h3 data-en="Content Editing for Digital Platforms" data-hi="डिजिटल प्लेटफॉर्म के लिए सामग्री संपादन">Content Editing for Digital Platforms</h3>
+                    <p data-en="From podcasts to YouTube to social media, we polish and optimize content for maximum engagement." data-hi="पॉडकास्ट से लेकर YouTube से लेकर सोशल मीडिया तक, हम अधिकतम जुड़ाव के लिए सामग्री को निखारते और अनुकूलित करते हैं।">From podcasts to YouTube to social media, we polish and optimize content for maximum engagement.</p>
+                </div>
+                <div class="service-item">
+                    <h3 data-en="Creative Strategy & Consulting" data-hi="रचनात्मक रणनीति और परामर्श">Creative Strategy & Consulting</h3>
+                    <p data-en="Helping brands and creators shape ideas into impactful campaigns with tech-driven creativity." data-hi="ब्रांड्स और क्रिएटर्स को तकनीक-संचालित रचनात्मकता के साथ विचारों को प्रभावशाली अभियानों में आकार देने में मदद करना।">Helping brands and creators shape ideas into impactful campaigns with tech-driven creativity.</p>
+                </div>
+                <div class="service-item">
+                    <h3 data-en="Graphic & Logo Designing" data-hi="ग्राफिक और लोगो डिज़ाइनिंग">Graphic & Logo Designing</h3>
+                    <p data-en="Unique, impactful designs that reflect your brand. From logos to social media graphics, we create visuals that stand out." data-hi="अनूठे, प्रभावशाली डिज़ाइन जो आपके ब्रांड को दर्शाते हैं। लोगो से लेकर सोशल मीडिया ग्राफिक्स तक, हम ऐसे विज़ुअल बनाते हैं जो अलग दिखते हैं।">Unique, impactful designs that reflect your brand. From logos to social media graphics, we create visuals that stand out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-en="About The Creative Cell" data-hi="द क्रिएटिव सेल के बारे में">About The Creative Cell</h2>
+                    <p data-en="At The Creative Cell, we believe imagination should never be bound by limitations of budget, logistics, or location. We are pioneers in hyper-realistic AI video production, delivering lifelike visuals that empower brands to tell their stories in bold, innovative, and cost-effective ways." data-hi="द क्रिएटिव सेल में, हमारा मानना है कि कल्पना को कभी भी बजट, रसद या स्थान की सीमाओं से बंधा नहीं होना चाहिए। हम हाइपर-रियलिस्टिक AI वीडियो प्रोडक्शन में अग्रणी हैं, जो जीवंत विज़ुअल प्रदान करते हैं जो ब्रांड्स को साहसिक, नवाचार और लागत-प्रभावी तरीकों से अपनी कहानियां कहने में सशक्त बनाते हैं।">At The Creative Cell, we believe imagination should never be bound by limitations of budget, logistics, or location. We are pioneers in hyper-realistic AI video production, delivering lifelike visuals that empower brands to tell their stories in bold, innovative, and cost-effective ways.</p>
+                    <p data-en="Our mission is simple: turn your wildest creative visions into reality, without breaking the bank. Whether it's a global campaign or a personal brand reel, we ensure your content not only captivates your audience but also positions your brand at the very forefront of digital storytelling." data-hi="हमारा मिशन सरल है: आपकी सबसे जंगली रचनात्मक दृष्टि को वास्तविकता में बदलना, बिना बैंक तोड़े। चाहे यह एक वैश्विक अभियान हो या व्यक्तिगत ब्रांड रील, हम सुनिश्चित करते हैं कि आपकी सामग्री न केवल आपके दर्शकों को मंत्रमुग्ध करे बल्कि आपके ब्रांड को डिजिटल स्टोरीटेलिंग के अग्रिम पंक्ति में भी स्थापित करे।">Our mission is simple: turn your wildest creative visions into reality, without breaking the bank. Whether it's a global campaign or a personal brand reel, we ensure your content not only captivates your audience but also positions your brand at the very forefront of digital storytelling.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label" data-en="Projects Completed" data-hi="पूर्ण परियोजनाएं">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label" data-en="Happy Clients" data-hi="खुश ग्राहक">Happy Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label" data-en="Years Experience" data-hi="वर्षों का अनुभव">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="section team-section">
+        <div class="container">
+            <h2 class="section-title" data-en="Meet Our Founder" data-hi="हमारे संस्थापक से मिलें">Meet Our Founder</h2>
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-photo">
+                        <img src="img (5).jpeg" alt="Creative Director" class="team-img">
+                        <div class="team-overlay"></div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name" data-en="Nalin" data-hi="नलिन">Nalin</h3>
+                        <p class="team-role" data-en="Founder & Visionary" data-hi="संस्थापक और दूरदर्शी">Founder & Visionary</p>
+                        <p class="team-description team-role-desc" data-en="Role: Sets the vision, strategy, and direction for the company." data-hi="भूमिका: कंपनी के लिए दृष्टि, रणनीति और दिशा निर्धारित करता है।">Role: Sets the vision, strategy, and direction for the company.</p>
+                        <br>
+                        <p class="team-description" data-en="The driving force behind our mission to revolutionize brand storytelling with AI. With a passion for creativity and innovation, our founder bridges the gap between technology and marketing, ensuring every video we create inspires and engages." data-hi="AI के साथ ब्रांड स्टोरीटेलिंग में क्रांति लाने के हमारे मिशन की प्रेरणा शक्ति। रचनात्मकता और नवाचार के जुनून के साथ, हमारे संस्थापक प्रौद्योगिकी और मार्केटिंग के बीच की खाई को पाटते हैं, यह सुनिश्चित करते हुए कि हमारा हर वीडियो प्रेरणा देता है और जोड़ता है।">The driving force behind our mission to revolutionize brand storytelling with AI. With a passion for creativity and innovation, our founder bridges the gap between technology and marketing, ensuring every video we create inspires and engages.</p>
+                    </div>
+                </div>
+
+                <div class="view-more-container">
+                    <button class="view-more-btn" id="ourTeamBtn" onclick="navigateToTeam()">
+                        <span class="btn-text" data-en="Our Team" data-hi="हमारी टीम">Our Team</span>
+                        <div class="btn-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 13L12 18L17 13M7 6L12 11L17 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="btn-bg"></div>
+                        <div class="btn-ripple"></div>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title" data-en="Let's Create Together" data-hi="आइए मिलकर बनाते हैं">Let's Create Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p data-en="Ready to bring your vision to life? Get in touch and let's discuss your next project." data-hi="अपने विज़न को जीवंत करने के लिए तैयार हैं? संपर्क करें और आइए अपनी अगली परियोजना पर चर्चा करते हैं।">Ready to bring your vision to life? Get in touch and let's discuss your next project.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label" data-en="Email" data-hi="ईमेल">Email</span>
+                            <a href="mailto:thecreativecell1@gmail.com" class="contact-value">thecreativecell1@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <a href="terms-and-conditions.html?redirect=contact" class="contact-us-btn">
+                                <span data-en="Contact Us" data-hi="हमसे संपर्क करें">Contact Us</span>
+                                <div class="button-bg"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Temporarily disabled
+                <div class="contact-cta">
+                    <a href="pricing.html" class="cta-button secondary">
+                        <span data-en="View Pricing" data-hi="मूल्य निर्धारण देखें">View Pricing</span>
+                        <div class="button-bg"></div>
+                    </a>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Flip Card Section -->
+    <section class="flip-card-section">
+        <div class="container">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="front.jpeg" alt="Front Card" class="card-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="back.jpeg" alt="Back Card" class="card-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Scrolling Text Sections -->
+    <div class="infinite-text-container">
+        <!-- Left to Right Scrolling Text -->
+        <div class="infinite-text-section left-to-right">
+            <div class="infinite-text-track">
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+            </div>
+        </div>
+        
+        <!-- Right to Left Scrolling Text -->
+        <div class="infinite-text-section right-to-left">
+            <div class="infinite-text-track">
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+                <span class="infinite-text-item">The Creative Cell</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>The Creative Cell</h3>
+                    <div class="social-media-icons">
+                        <a href="https://www.instagram.com/the.creative.cell/" target="_blank" rel="noopener noreferrer" class="social-icon instagram" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@THECREATIVECELL" target="_blank" rel="noopener noreferrer" class="social-icon youtube" aria-label="YouTube">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Creative Cell. All rights reserved.</p>
+                <p class="terms-applied">Terms & Conditions Applied</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
